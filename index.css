@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  /* background-color: #BACC81; */
+  color: #000;
+ 
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 20px;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.logo{
+    font-size: 2em;
+    font-weight: 700;
+    }
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: #60A3D9;
+}
+
+#main-img{
+    width: 500px
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 24px;
+    background-color: aliceblue;
+    opacity: 10;
+    box-shadow: 2px 2px #BFD7ED;
+}
+
+.servizi{
+    position: relative;
+    right: 100px;
+    top: 100px;
+}
+
+
+#title{
+    color: #06040A;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 150px;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    background-color: #60A3D9;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.btn:hover{
+    color: blue;
+}
+
+.section{
+   display: flex;
+   justify-content: space-between;
+   margin: 60px 50px;
+    }
+
+#items{
+    padding: 25px 50px;
+    width: 200px;
+    height: 300px;
+    box-shadow: 2px 2px #BFD7ED;
+    text-align: center;
+}
+
+#items h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#items p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-btn{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 150px;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    background-color: #60A3D9;
+    border-radius: 25px;
+    transition: 0.3s;
+    box-shadow: 2px 2px #BFD7ED;
+}
+
